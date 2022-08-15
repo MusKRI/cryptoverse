@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import styled from "styled-components";
 import {
-  selectCoinsList,
-  selectLoading,
   selectLimit,
   selectSearchText,
 } from "../../Redux/Features/Coins/coinSlice";
